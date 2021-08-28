@@ -34,6 +34,7 @@ fn main(){
         sub: "math".to_string(),
         age: 50,
     };
+    println!("hhh");
     let stu1_school_name=stu1.get_school_name();
     let tea1_school_name=tea1.get_school_name();
     let sum_name = format!("student's school :{}  and teacher's school : {}",stu1_school_name,tea1_school_name);
